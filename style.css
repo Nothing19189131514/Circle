@@ -1,0 +1,97 @@
+body{
+    background-color:black;
+    text-align: center;
+}
+
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9, .circle10, .circle11, .circle12, .circle13, .circle14, .circle15, .circle16, .circle17, .circle18, .circle19{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    left: calc(var(--i) * 5vmin);
+    transform: translate(-50%,-50%);
+    animation: circle 1s infinite alternate;
+}
+
+.circle1{
+    animation-delay: 0.25s;
+    top: calc(50% - 45vmin);
+}
+.circle2{
+    animation-delay: 0.5s;
+    top: calc(50% - 40vmin);
+}
+.circle3{
+    animation-delay: 0.75s;
+    top: calc(50% - 35vmin);
+}
+.circle4{
+    animation-delay: 1s;
+    top: calc(50% - 30vmin);
+}
+.circle5{
+    animation-delay: 1.25s;
+    top: calc(50% - 25vmin);
+}
+.circle6{
+    animation-delay: 1.5s;
+    top: calc(50% - 20vmin);
+}
+.circle7{
+    animation-delay: 1.75s;
+    top: calc(50% - 15vmin);
+}
+.circle8{
+    animation-delay: 2s;
+    top: calc(50% - 10vmin);
+}
+.circle9{
+    animation-delay: 2.25s;
+    top: calc(50% - 5vmin);
+}
+.circle10{
+    animation-delay: 2.5s;
+    top: 50%;
+}
+.circle11{
+    animation-delay: 2.75s;
+    top: calc(50% + 5vmin);
+}
+.circle12{
+    animation-delay: 3s;
+    top: calc(50% + 10vmin);
+}
+.circle13{
+    animation-delay: 3.25s;
+    top: calc(50% + 15vmin);
+}
+.circle14{
+    animation-delay: 3.5s;
+    top: calc(50% + 20vmin);
+}
+.circle15{
+    animation-delay: 3.75s;
+    top: calc(50% + 25vmin);
+}
+.circle16{
+    animation-delay: 4s;
+    top: calc(50% + 30vmin);
+}
+.circle17{
+    animation-delay: 4.25s;
+    top: calc(50% + 35vmin);
+}
+.circle18{
+    animation-delay: 4.5s;
+    top: calc(50% + 40vmin);
+}
+.circle19{
+    animation-delay: 4.75s;
+    top: calc(50% + 45vmin);
+}
+
+@keyframes circle {
+    0% {width: 0px; height: 0px;}
+    100% {width: 45px; height: 45px;}
+}
